@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # MySQL
-yum install -y mysql mysql-servr mysql-devel
+yum install -y mysql mysql-server mysql-devel
 chkconfig --add mysqld
 chkconfig mysqld on
 
